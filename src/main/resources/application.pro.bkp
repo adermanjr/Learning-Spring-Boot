@@ -1,0 +1,6 @@
+server.port = 8523
+
+spring.profiles.active=prd
+spring.application.name=App
+
+# Run with parms (parms are priority) -> mvn spring-boot:run -Dserver.port=8581 ||  java -jar -Dserver.port=8181 app-0.0.1-SNAPSHOT.jar
